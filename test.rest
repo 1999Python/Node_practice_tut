@@ -3,10 +3,23 @@ GET  http://localhost:4000/
 
 ###
 
-POST http://localhost:4000/api/info
+POST http://localhost:4999/api/info
 Content-Type: application/json
 
 {
-    "infomation": "my name is Raadiyah"
+    "information": "my name is Raadiyah"
+}
+
+###
+
+DELETE  http://localhost:4999/delete/api/info
+
+
+###
+PUT http://localhost:4999/api
+Content-Type: application/json
+
+{
+     "information": "my name is Raadiyah"
 }
 //must nodemon run while sending request also dont type out the link wrong
